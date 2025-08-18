@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أحمد رشدي - خبير متعدد التخصصات وعاشق للعلوم</title>
+    <link rel="stylesheet" href="styles-ar.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    <style>
+        /* Arabic RTL Styles */
+        body[dir="rtl"] {
+            font-family: 'Cairo', sans-serif;
+        }
+        
+        body[dir="rtl"] .nav-menu {
+            flex-direction: row-reverse;
+        }
+        
+        body[dir="rtl"] .hero-container {
+            grid-template-columns: 1fr 1fr;
+            text-align: right;
+        }
+        
+        body[dir="rtl"] .hero-buttons {
+            justify-content: flex-end;
+        }
+        
+        body[dir="rtl"] .about-content {
+            grid-template-columns: 1fr 2fr;
+        }
+        
+        body[dir="rtl"] .contact-form {
+            text-align: right;
+        }
+        
+        body[dir="rtl"] .contact-form input,
+        body[dir="rtl"] .contact-form textarea {
+            text-align: right;
+        }
+    </style>
+</head>
+<body dir="rtl">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index-ar.html">أحمد رشدي</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index-ar.html" class="nav-link">الرئيسية</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">نبذة عني</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#expertise" class="nav-link">الخبرات <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="ai-ar.html">الذكاء الاصطناعي</a>
+                        <a href="cybersecurity-ar.html">الأمن السيبراني</a>
+                        <a href="programming-ar.html">البرمجة والتطوير</a>
+                        <a href="graphic-design-ar.html">التصميم الجرافيكي</a>
+                        <a href="content-writing-ar.html">كتابة المحتوى</a>
+                        <a href="emarketing-ar.html">التسويق الإلكتروني</a>
+                        <a href="science-research-ar.html">العلوم والبحث</a>
+                        <a href="vfx-editing-ar.html">المؤثرات البصرية</a>
+                        <a href="audio-photo-ar.html">الصوتيات والتصوير</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">المشاريع</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">تواصل معي</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="lang-toggle" id="langToggle">English</button>
+                <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع المظلم">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    مرحباً، أنا <span class="highlight">أحمد رشدي</span><br>
+                    خبير متعدد التخصصات
+                </h1>
+                <p class="hero-subtitle">عاشق للعلوم وحلال المشاكل الإبداعي</p>
+                <p class="hero-description">
+                    أجمع بين الخبرات المتنوعة في الذكاء الاصطناعي، التصميم الجرافيكي، الأمن السيبراني، البرمجة، وأكثر، 
+                    لأصنع حلولاً مبتكرة بشغف عميق للعلوم والتكنولوجيا.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">شاهد أعمالي</a>
+                    <a href="#contact" class="btn btn-secondary">تواصل معي</a>
+                </div>
+            </div>
+            <div class="profile-avatar">
+                <img src="profile-image.png" alt="أحمد رشدي" class="profile-img">
+                <div class="profile-info">
+                    <h3>أحمد رشدي</h3>
+                    <p>مطور ومصمم</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">نبذة عني</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        كخبير متعدد التخصصات ومحترف معتمد، أجلب مزيجاً فريداً من المهارات المتنوعة وشغفاً عميقاً بالعلوم لكل مشروع. 
+                        رحلتي مدفوعة بفضول لا يشبع والتزام بالابتكار، مما يتيح لي سد الفجوات بين المجالات المختلفة ظاهرياً.
+                    </p>
+                    <p>
+                        تمتد خبرتي عبر المجالات المتطورة للذكاء الاصطناعي، حيث أتعمق في التعلم الآلي والتعلم العميق ومعالجة اللغات الطبيعية 
+                        لصنع حلول ذكية. في التصميم الجرافيكي وإنشاء المحتوى، أحول الأفكار إلى قصص بصرية مقنعة، مستفيداً من مهاراتي 
+                        في المؤثرات البصرية وتحرير الفيديو والهندسة الصوتية لإنتاج تجارب غامرة.
+                    </p>
+                    <p>
+                        كممارس متمرس في الأمن السيبراني، أمتلك معرفة شاملة بتكتيكاته ودفاعاته المختلفة، لضمان حماية رقمية قوية. 
+                        تمتد كفاءتي إلى البرمجة والتطوير، حيث أتقن لغات متعددة وأطبقها عبر مجالات متنوعة لبناء تطبيقات قوية وقابلة للتوسع.
+                    </p>
+                    <p>
+                        وراء الرقمي، شغفي بالعلوم والبحث عميق. أنا متابع متحمس للهندسة والطب والأحياء والكيمياء والفيزياء والجيولوجيا وعلم النفس، 
+                        أطور باستمرار نظريات متقدمة وأستكشف أعماقها. هذا الصرامة العلمية تدعم منهجي في حل المشكلات، مما يمكنني من ابتكار حلول مبتكرة ومتكاملة.
+                    </p>
+                    <p>
+                        سواء كان الأمر يتعلق بصنع محتوى جذاب، أو تأمين البنى التحتية الرقمية، أو تطوير أنظمة ذكية، أو استكشاف حدود المعرفة العلمية، 
+                        أنا مكرس لتقديم التميز ودفع الحدود. هدفي هو خلق تجارب رقمية ذات معنى والمساهمة في التطورات التي تشكل المستقبل.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>3+</h3>
+                        <p>سنوات خبرة</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>مشروع مكتمل</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>رضا العملاء</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">المهارات والتقنيات</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>الواجهة الأمامية</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">React</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>الواجهة الخلفية</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">Express.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>الأدوات</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Cloud</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">آراء العملاء</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                "أحمد قدم عملاً استثنائياً في مشروع الذكاء الاصطناعي الخاص بنا. خبرته في التعلم الآلي واهتمامه بالتفاصيل فاق توقعاتنا. تم تسليم الحل في الوقت المحدد وعمل بشكل مثالي."
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>محمد حسن</h4>
+                                    <p>الرئيس التنفيذي لشركة تقنية ناشئة</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                "استشارة أمن سيبراني متميزة! أحمد حدد نقاط ضعف لم نكن نعلم بوجودها وقدم حلولاً شاملة. تحسن أمان نظامنا بشكل كبير."
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>سارة أحمد</h4>
+                                    <p>مديرة تقنية المعلومات</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                "عمل أحمد في التصميم الجرافيكي حول هوية علامتنا التجارية. رؤيته الإبداعية ومهاراته التقنية أنتجت تصاميم تجسد جوهر شركتنا بشكل مثالي."
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>علي محمود</h4>
+                                    <p>مدير التسويق</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn" id="prevTestimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="testimonial-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="testimonial-btn" id="nextTestimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">الشهادات المهنية</h2>
+            <div class="certifications-grid">
+                <div class="certification-category">
+                    <div class="category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>الذكاء الاصطناعي</h3>
+                    </div>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4>شهادة جوجل للذكاء الاصطناعي</h4>
+                                <p>التعلم الآلي والتعلم العميق</p>
+                                <span class="cert-year">2023</span>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4>مايكروسوفت أزور للذكاء الاصطناعي</h4>
+                                <p>تطوير ونشر حلول الذكاء الاصطناعي</p>
+                                <span class="cert-year">2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <div class="category-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>الأمن السيبراني</h3>
+                    </div>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4>شهادة CISSP</h4>
+                                <p>أمان أنظمة المعلومات</p>
+                                <span class="cert-year">2022</span>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4>شهادة CEH</h4>
+                                <p>الاختراق الأخلاقي</p>
+                                <span class="cert-year">2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>البرمجة</h3>
+                    </div>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4>مهندس حلول AWS</h4>
+                                <p>تطوير السحابة</p>
+                                <span class="cert-year">2023</span>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4>محترف Python</h4>
+                                <p>البرمجة المتقدمة</p>
+                                <span class="cert-year">2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <div class="category-header">
+                        <i class="fas fa-palette"></i>
+                        <h3>التصميم والوسائط</h3>
+                    </div>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4>خبير أدوبي معتمد</h4>
+                                <p>إتقان الحزمة الإبداعية</p>
+                                <span class="cert-year">2022</span>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4>محترف إنتاج الفيديو</h4>
+                                <p>المؤثرات البصرية والتحرير المتقدم</p>
+                                <span class="cert-year">2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <div class="category-header">
+                        <i class="fas fa-microscope"></i>
+                        <h3>العلوم والبحث</h3>
+                    </div>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4>منهجية البحث</h4>
+                                <p>التحليل العلمي</p>
+                                <span class="cert-year">2021</span>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4>محترف علوم البيانات</h4>
+                                <p>التحليل الإحصائي</p>
+                                <span class="cert-year">2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <div class="category-header">
+                        <i class="fas fa-bullhorn"></i>
+                        <h3>التسويق الرقمي</h3>
+                    </div>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4>شهادة إعلانات جوجل</h4>
+                                <p>الإعلان الرقمي</p>
+                                <span class="cert-year">2023</span>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4>محترف تسويق ميتا</h4>
+                                <p>استراتيجية وسائل التواصل الاجتماعي</p>
+                                <span class="cert-year">2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">المشاريع المميزة</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="projects-showcase.jpg" alt="منصة التجارة الإلكترونية" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>منصة التجارة الإلكترونية</h3>
+                        <p>حل تجارة إلكترونية متكامل مع تكامل المدفوعات، مصادقة المستخدمين، ولوحة تحكم الإدارة.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="projects-showcase.jpg" alt="تطبيق إدارة المهام" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>تطبيق إدارة المهام</h3>
+                        <p>تطبيق إدارة مهام تعاوني مع تحديثات فورية وميزات التعاون الجماعي.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Vuex</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="projects-showcase.jpg" alt="لوحة تحليل البيانات" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>لوحة تحليل البيانات</h3>
+                        <p>لوحة تفاعلية لتصور البيانات المعقدة مع الرسوم البيانية والمرشحات والتحديثات الفورية.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Partners Section -->
+    <section id="partners" class="partners">
+        <div class="container">
+            <h2 class="section-title">شركاء النجاح</h2>
+            <p class="partners-subtitle">موثوق من قبل الشركات الرائدة عالمياً</p>
+            
+            <div class="partners-stats">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">عميل سعيد</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">مشروع مكتمل</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">دولة مخدومة</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">سنوات خبرة</div>
+                </div>
+            </div>
+
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <h4>Microsoft</h4>
+                    <p>شريك حلول السحابة</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <h4>Google</h4>
+                    <p>شريك تطوير الذكاء الاصطناعي</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-amazon"></i>
+                    </div>
+                    <h4>Amazon</h4>
+                    <p>مزود حلول AWS</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <h4>Apple</h4>
+                    <p>شريك تطوير iOS</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-meta"></i>
+                    </div>
+                    <h4>Meta</h4>
+                    <p>حلول وسائل التواصل الاجتماعي</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-adobe"></i>
+                    </div>
+                    <h4>Adobe</h4>
+                    <p>شريك الحلول الإبداعية</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-spotify"></i>
+                    </div>
+                    <h4>Spotify</h4>
+                    <p>شريك تقنية الصوت</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h4>Tesla</h4>
+                    <p>تقنية الابتكار</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-netflix"></i>
+                    </div>
+                    <h4>Netflix</h4>
+                    <p>تقنية المحتوى</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-salesforce"></i>
+                    </div>
+                    <h4>Salesforce</h4>
+                    <p>شريك حلول CRM</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-slack"></i>
+                    </div>
+                    <h4>Slack</h4>
+                    <p>حلول التواصل</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-shopify"></i>
+                    </div>
+                    <h4>Shopify</h4>
+                    <p>حلول التجارة الإلكترونية</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معي</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>لنعمل معاً!</h3>
+                    <p>أنا دائماً مهتم بالفرص الجديدة والمشاريع المثيرة. لا تتردد في التواصل!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Ahmed7Roshdi@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>قريباً سيكون متاحاً</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>القاهرة، مصر</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="from_name" placeholder="اسمك" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="from_email" placeholder="بريدك الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="الموضوع" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="رسالتك" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span class="btn-text">إرسال الرسالة</span>
+                        <span class="btn-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> جاري الإرسال...
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 أحمد رشدي. جميع الحقوق محفوظة.</p>
+                <p>صُنع بـ ❤️ وكثير من ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="pages-script.js"></script>
+</body>
+</html>
+
