@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VFX & Editing - Ahmed Roshdi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><text y=\'.9em\' font-size=\'90\'>🎬</text></svg>\'>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="https://ahmed-roshdi.github.io/portfolio/">Ahmed Roshdi</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="https://ahmed-roshdi.github.io/portfolio/" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#vfx" class="nav-link">Visual Effects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#editing" class="nav-link">Video Editing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">VFX & <span class="highlight">Video Editing Expertise</span></h1>
+                <p class="hero-subtitle">Transforming Raw Footage into Cinematic Masterpieces</p>
+                <p class="hero-description">
+                    Specialized in creating stunning visual effects and seamless video edits that elevate storytelling.
+                    Bringing imagination to life through advanced post-production techniques.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary">Discuss Project</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- VFX/Editing specific visual element -->
+                <i class="fas fa-film fa-10x"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- VFX Section -->
+    <section id="vfx" class="services">
+        <div class="container">
+            <h2 class="section-title">Visual Effects Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Compositing</h3>
+                    <p>Seamless integration of visual elements from different sources.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>3D Tracking & Modeling</h3>
+                    <p>Integrating 3D elements into live-action footage.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Motion Graphics</h3>
+                    <p>Creating dynamic animated text and graphics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Editing Section -->
+    <section id="editing" class="services">
+        <div class="container">
+            <h2 class="section-title">Video Editing Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Rough & Fine Cut</h3>
+                    <p>Structuring and refining footage for optimal flow and pacing.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Color Grading</h3>
+                    <p>Enhancing visual mood and consistency through color correction.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Sound Design & Mixing</h3>
+                    <p>Adding and balancing audio elements for an immersive experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch for VFX & Editing Projects</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to Elevate Your Visual Story?</h3>
+                    <p>Let\"s create unforgettable visual experiences together.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>Ahmed7Roshdi@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>Soon to be available</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Cairo, Egypt</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form-vfx-editing">
+                    <div class="form-group">
+                        <input type="text" id="name-vfx-editing" name="from_name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email-vfx-editing" name="from_email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject-vfx-editing" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message-vfx-editing" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> Sending...
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ahmed Roshdi. All rights reserved.</p>
+                <p>Built with ❤️ and lots of ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lang-toggle.js"></script>
+    <script src="script.js"></script>
+    <script src="vfx-editing-script.js"></script>
+    <script src="pages-script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+/* Graphic Design & Content Creation page styles */
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('graphic-design-hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+:root { --accent-color: #e84393; }
+

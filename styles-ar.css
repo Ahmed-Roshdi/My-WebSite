@@ -1,0 +1,332 @@
+/* Import main styles */
+@import url('styles.css');
+
+/* Arabic RTL Specific Styles */
+body[dir="rtl"] {
+    font-family: 'Cairo', sans-serif !important;
+    text-align: right;
+    line-height: 1.8;
+}
+
+/* Typography improvements for Arabic */
+body[dir="rtl"] h1, 
+body[dir="rtl"] h2, 
+body[dir="rtl"] h3, 
+body[dir="rtl"] h4, 
+body[dir="rtl"] h5, 
+body[dir="rtl"] h6 {
+    font-family: 'Cairo', sans-serif !important;
+    font-weight: 700;
+    text-align: right;
+}
+
+body[dir="rtl"] p {
+    font-family: 'Cairo', sans-serif !important;
+    text-align: right;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+}
+
+body[dir="rtl"] .hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    text-align: right;
+}
+
+body[dir="rtl"] .hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: right;
+    margin: 1rem 0;
+}
+
+body[dir="rtl"] .hero-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+body[dir="rtl"] .section-title {
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+/* Navigation RTL */
+body[dir="rtl"] .nav-menu {
+    flex-direction: row-reverse;
+}
+
+body[dir="rtl"] .nav-controls {
+    flex-direction: row-reverse;
+}
+
+body[dir="rtl"] .lang-toggle {
+    margin-left: 10px;
+    margin-right: 0;
+    padding: 8px 16px;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+body[dir="rtl"] .lang-toggle:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
+body[dir="rtl"] .dropdown-content {
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+
+body[dir="rtl"] .dropdown-content a {
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* Hero Section RTL */
+body[dir="rtl"] .hero-container {
+    text-align: right;
+    grid-template-columns: 2fr 1fr;
+}
+
+body[dir="rtl"] .hero-buttons {
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+body[dir="rtl"] .hero-content {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+body[dir="rtl"] .btn {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+}
+
+/* About Section RTL */
+body[dir="rtl"] .about-content {
+    grid-template-columns: 1fr;
+    text-align: right;
+}
+
+body[dir="rtl"] .about-text {
+    text-align: right;
+}
+
+body[dir="rtl"] .about-text p {
+    text-align: justify;
+    text-align-last: right;
+}
+
+/* Stats Section RTL */
+body[dir="rtl"] .stats-grid {
+    text-align: center;
+}
+
+body[dir="rtl"] .stat-card h3 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+
+body[dir="rtl"] .stat-card p {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+}
+
+/* Services Section RTL */
+body[dir="rtl"] .services-grid {
+    text-align: right;
+}
+
+body[dir="rtl"] .service-card {
+    text-align: right;
+}
+
+body[dir="rtl"] .service-card h3 {
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+}
+
+body[dir="rtl"] .service-card p {
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* Contact Section RTL */
+body[dir="rtl"] .contact-form {
+    text-align: right;
+}
+
+body[dir="rtl"] .contact-form input,
+body[dir="rtl"] .contact-form textarea {
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+}
+
+body[dir="rtl"] .contact-form label {
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500;
+}
+
+/* Profile Section RTL */
+body[dir="rtl"] .profile-info {
+    text-align: right;
+}
+
+body[dir="rtl"] .profile-info h3 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+}
+
+body[dir="rtl"] .profile-info p {
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+}
+
+/* Skills Section RTL */
+body[dir="rtl"] .skills-grid {
+    text-align: right;
+}
+
+body[dir="rtl"] .skill-category h3 {
+    text-align: right;
+}
+
+/* Testimonials RTL */
+body[dir="rtl"] .testimonial-text {
+    text-align: right;
+}
+
+body[dir="rtl"] .testimonial-author {
+    text-align: right;
+}
+
+body[dir="rtl"] .testimonial-btn#prevTestimonial {
+    order: 2;
+}
+
+body[dir="rtl"] .testimonial-btn#nextTestimonial {
+    order: 1;
+}
+
+/* Certifications RTL */
+body[dir="rtl"] .certifications-grid {
+    text-align: right;
+}
+
+body[dir="rtl"] .certification-category {
+    text-align: right;
+}
+
+body[dir="rtl"] .cert-info {
+    text-align: right;
+}
+
+/* Projects RTL */
+body[dir="rtl"] .project-content {
+    text-align: right;
+}
+
+body[dir="rtl"] .project-tech {
+    justify-content: flex-end;
+}
+
+/* Partners RTL */
+body[dir="rtl"] .partners-grid {
+    text-align: center;
+}
+
+body[dir="rtl"] .partner-card {
+    text-align: center;
+}
+
+/* Contact RTL */
+body[dir="rtl"] .contact-content {
+    grid-template-columns: 1fr 1fr;
+}
+
+body[dir="rtl"] .contact-info {
+    text-align: right;
+}
+
+body[dir="rtl"] .contact-form {
+    text-align: right;
+}
+
+body[dir="rtl"] .contact-form input,
+body[dir="rtl"] .contact-form textarea {
+    text-align: right;
+    direction: rtl;
+}
+
+body[dir="rtl"] .contact-form input::placeholder,
+body[dir="rtl"] .contact-form textarea::placeholder {
+    text-align: right;
+    direction: rtl;
+}
+
+/* Footer RTL */
+body[dir="rtl"] .footer-content {
+    text-align: center;
+}
+
+/* General RTL text alignment */
+body[dir="rtl"] h1,
+body[dir="rtl"] h2,
+body[dir="rtl"] h3,
+body[dir="rtl"] h4,
+body[dir="rtl"] h5,
+body[dir="rtl"] h6 {
+    text-align: right;
+}
+
+body[dir="rtl"] p {
+    text-align: right;
+    direction: rtl;
+}
+
+body[dir="rtl"] .section-title {
+    text-align: center;
+}
+
+/* Ensure proper spacing for Arabic text */
+body[dir="rtl"] * {
+    font-family: 'Cairo', sans-serif;
+}
+
+/* Fix any layout issues */
+body[dir="rtl"] .container {
+    direction: rtl;
+}
+
+/* Responsive adjustments for RTL */
+@media (max-width: 768px) {
+    body[dir="rtl"] .about-content {
+        grid-template-columns: 1fr;
+        text-align: right;
+    }
+    
+    body[dir="rtl"] .contact-content {
+        grid-template-columns: 1fr;
+        text-align: right;
+    }
+    
+    body[dir="rtl"] .hero-buttons {
+        justify-content: center;
+    }
+}
+
