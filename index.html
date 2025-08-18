@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmed Roshdi - Personal Portfolio</title>
+    <title>Ahmed Roshdi - Cross-Functional Expert & Science Enthusiast</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -14,20 +14,28 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="#home">Ahmed Roshdi</a>
+                <a href="https://ahmed-roshdi.github.io/portfolio/">Ahmed Roshdi</a>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
+                    <a href="https://ahmed-roshdi.github.io/portfolio/" class="nav-link" data-translate="nav.home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#about" class="nav-link" data-translate="nav.about">About</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="cybersecurity.html" class="nav-link">Cybersecurity</a>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-translate="nav.expertise">Expertise</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="ai.html" class="dropdown-link">Artificial Intelligence</a></li>
+                        <li><a href="cybersecurity.html" class="dropdown-link">Cybersecurity</a></li>
+                        <li><a href="programming_development.html" class="dropdown-link">Programming & Development</a></li>
+                        <li><a href="graphic_design_content_creation.html" class="dropdown-link">Graphic Design & Content Creation</a></li>
+                        <li><a href="audio_photo_lighting.html" class="dropdown-link">Audio, Photo & Lighting</a></li>
+                        <li><a href="content_writing_translation.html" class="dropdown-link">Content Writing & Translation</a></li>
+                        <li><a href="vfx_editing.html" class="dropdown-link">VFX & Video Editing</a></li>
+                        <li><a href="emarketing.html" class="dropdown-link">E-Marketing</a></li>
+                        <li><a href="science_research.html" class="dropdown-link">Science & Research</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a href="#projects" class="nav-link">Projects</a>
@@ -37,6 +45,7 @@
                 </li>
             </ul>
             <div class="nav-controls">
+                <button class="lang-toggle" id="langToggle">العربية</button>
                 <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
                     <i class="fas fa-sun"></i>
                     <i class="fas fa-moon"></i>
@@ -49,16 +58,15 @@
             </div>
         </div>
     </nav>
-
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Hi, I'm <span class="highlight">Ahmed Roshdi</span></h1>
-                <p class="hero-subtitle">Full Stack Developer & Creative Problem Solver</p>
+                <h1 class="hero-title">Hi, I\'m <span class="highlight">Ahmed Roshdi</span><br>Cross-Functional Expert & Certified Professional</h1>
+                <p class="hero-subtitle">An Ardent Follower of Science & Creative Problem Solver</p>
                 <p class="hero-description">
-                    I create innovative digital solutions that make a difference. 
-                    Passionate about clean code, user experience, and cutting-edge technology.
+                    Bringing together diverse expertise in AI, graphic design, cybersecurity, programming, and more,
+                    I craft innovative solutions with a deep passion for science and technology.
                 </p>
                 <div class="hero-buttons">
                     <a href="#projects" class="btn btn-primary">View My Work</a>
@@ -91,13 +99,19 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        I'm a passionate developer with a love for creating meaningful digital experiences. 
-                        With expertise in modern web technologies, I specialize in building responsive, 
-                        user-friendly applications that solve real-world problems.
+                        As a **Cross-Functional Expert & Certified Professional**, I bring a unique blend of diverse skills and a profound passion for science to every project. My journey is driven by an insatiable curiosity and a commitment to innovation, allowing me to bridge the gaps between seemingly disparate fields.
                     </p>
                     <p>
-                        When I'm not coding, you can find me exploring new technologies, contributing to 
-                        open-source projects, or sharing knowledge with the developer community.
+                        My expertise spans the cutting-edge realms of **Artificial Intelligence**, where I delve into machine learning, deep learning, and natural language processing to craft intelligent solutions. In **Graphic Design & Content Creation**, I transform ideas into compelling visual narratives, leveraging my skills in visual effects, video editing, and audio engineering to produce immersive experiences.
+                    </p>
+                    <p>
+                        A seasoned practitioner in **Cybersecurity**, I possess comprehensive knowledge of its various tactics and defenses, ensuring robust digital protection. My proficiency extends to **Programming & Development**, where I master multiple languages and apply them across diverse domains to build robust and scalable applications.
+                    </p>
+                    <p>
+                        Beyond the digital, my passion for **Science & Research** is profound. I am an ardent follower of engineering, medicine, biology, chemistry, physics, geology, and psychology, constantly developing advanced theories and exploring their depths. This scientific rigor underpins my problem-solving approach, enabling me to devise innovative and integrated solutions.
+                    </p>
+                    <p>
+                        Whether it's crafting engaging content, securing digital infrastructures, developing intelligent systems, or exploring the frontiers of scientific knowledge, I am dedicated to delivering excellence and pushing boundaries. My goal is to create meaningful digital experiences and contribute to advancements that shape the future.
                     </p>
                     <div class="about-stats">
                         <div class="stat">
@@ -193,7 +207,217 @@
         </div>
     </section>
 
+    <!-- Client Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-translate="testimonials.title">Client Testimonials</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text" data-translate="testimonials.testimonial1.text">"Ahmed delivered exceptional work on our AI project. His expertise in machine learning and attention to detail exceeded our expectations. The solution was delivered on time and worked flawlessly."</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4 class="author-name" data-translate="testimonials.testimonial1.name">Mohamed Hassan</h4>
+                                    <p class="author-title" data-translate="testimonials.testimonial1.title">Tech Startup CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text" data-translate="testimonials.testimonial2.text">"Outstanding cybersecurity consultation! Ahmed identified vulnerabilities we didn't know existed and provided comprehensive solutions. Our system security improved dramatically."</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4 class="author-name" data-translate="testimonials.testimonial2.name">Sarah Ahmed</h4>
+                                    <p class="author-title" data-translate="testimonials.testimonial2.title">IT Director</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text" data-translate="testimonials.testimonial3.text">"Ahmed's graphic design work transformed our brand identity. His creative vision and technical skills produced designs that perfectly captured our company's essence."</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4 class="author-name" data-translate="testimonials.testimonial3.name">Ali Mahmoud</h4>
+                                    <p class="author-title" data-translate="testimonials.testimonial3.title">Marketing Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev-btn" id="prevTestimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-dots" id="testimonialDots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                    <button class="testimonial-btn next-btn" id="nextTestimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Professional Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title" data-translate="certifications.title">Professional Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-category">
+                    <div class="category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3 data-translate="certifications.ai.title">Artificial Intelligence</h3>
+                    </div>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4 data-translate="certifications.ai.cert1.name">Google AI Certification</h4>
+                                <p data-translate="certifications.ai.cert1.description">Machine Learning & Deep Learning</p>
+                                <span class="cert-year" data-translate="certifications.ai.cert1.year">2023</span>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4 data-translate="certifications.ai.cert2.name">Microsoft Azure AI</h4>
+                                <p data-translate="certifications.ai.cert2.description">AI Solutions Development</p>
+                                <span class="cert-year" data-translate="certifications.ai.cert2.year">2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <div class="category-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3 data-translate="certifications.cybersecurity.title">Cybersecurity</h3>
+                    </div>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4 data-translate="certifications.cybersecurity.cert1.name">CISSP Certified</h4>
+                                <p data-translate="certifications.cybersecurity.cert1.description">Information Systems Security</p>
+                                <span class="cert-year" data-translate="certifications.cybersecurity.cert1.year">2022</span>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4 data-translate="certifications.cybersecurity.cert2.name">CEH Certification</h4>
+                                <p data-translate="certifications.cybersecurity.cert2.description">Ethical Hacking</p>
+                                <span class="cert-year" data-translate="certifications.cybersecurity.cert2.year">2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3 data-translate="certifications.programming.title">Programming</h3>
+                    </div>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4 data-translate="certifications.programming.cert1.name">AWS Solutions Architect</h4>
+                                <p data-translate="certifications.programming.cert1.description">Cloud Development</p>
+                                <span class="cert-year" data-translate="certifications.programming.cert1.year">2023</span>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4 data-translate="certifications.programming.cert2.name">Python Professional</h4>
+                                <p data-translate="certifications.programming.cert2.description">Advanced Programming</p>
+                                <span class="cert-year" data-translate="certifications.programming.cert2.year">2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <div class="category-header">
+                        <i class="fas fa-palette"></i>
+                        <h3 data-translate="certifications.design.title">Design & Media</h3>
+                    </div>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4 data-translate="certifications.design.cert1.name">Adobe Certified Expert</h4>
+                                <p data-translate="certifications.design.cert1.description">Creative Suite Mastery</p>
+                                <span class="cert-year" data-translate="certifications.design.cert1.year">2022</span>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4 data-translate="certifications.design.cert2.name">Video Production Pro</h4>
+                                <p data-translate="certifications.design.cert2.description">Advanced VFX & Editing</p>
+                                <span class="cert-year" data-translate="certifications.design.cert2.year">2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <div class="category-header">
+                        <i class="fas fa-microscope"></i>
+                        <h3 data-translate="certifications.science.title">Science & Research</h3>
+                    </div>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4 data-translate="certifications.science.cert1.name">Research Methodology</h4>
+                                <p data-translate="certifications.science.cert1.description">Scientific Analysis</p>
+                                <span class="cert-year" data-translate="certifications.science.cert1.year">2021</span>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4 data-translate="certifications.science.cert2.name">Data Science Professional</h4>
+                                <p data-translate="certifications.science.cert2.description">Statistical Analysis</p>
+                                <span class="cert-year" data-translate="certifications.science.cert2.year">2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <div class="category-header">
+                        <i class="fas fa-bullhorn"></i>
+                        <h3 data-translate="certifications.marketing.title">Digital Marketing</h3>
+                    </div>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4 data-translate="certifications.marketing.cert1.name">Google Ads Certified</h4>
+                                <p data-translate="certifications.marketing.cert1.description">Digital Advertising</p>
+                                <span class="cert-year" data-translate="certifications.marketing.cert1.year">2023</span>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-info">
+                                <h4 data-translate="certifications.marketing.cert2.name">Meta Marketing Pro</h4>
+                                <p data-translate="certifications.marketing.cert2.description">Social Media Strategy</p>
+                                <span class="cert-year" data-translate="certifications.marketing.cert2.year">2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
@@ -253,6 +477,131 @@
                             <a href="#" class="btn btn-small btn-outline">GitHub</a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Partners Section -->
+    <section id="partners" class="partners">
+        <div class="container">
+            <h2 class="section-title" data-translate="partners.title">Success Partners</h2>
+            <p class="partners-subtitle" data-translate="partners.subtitle">Trusted by leading companies worldwide</p>
+            
+            <div class="partners-stats">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label" data-translate="partners.stats.clients">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label" data-translate="partners.stats.projects">Completed Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label" data-translate="partners.stats.countries">Countries Served</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label" data-translate="partners.stats.experience">Years Experience</div>
+                </div>
+            </div>
+
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <h4>Microsoft</h4>
+                    <p data-translate="partners.microsoft">Cloud Solutions Partner</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <h4>Google</h4>
+                    <p data-translate="partners.google">AI Development Partner</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-amazon"></i>
+                    </div>
+                    <h4>Amazon</h4>
+                    <p data-translate="partners.amazon">AWS Solutions Provider</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <h4>Apple</h4>
+                    <p data-translate="partners.apple">iOS Development Partner</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-meta"></i>
+                    </div>
+                    <h4>Meta</h4>
+                    <p data-translate="partners.meta">Social Media Solutions</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-adobe"></i>
+                    </div>
+                    <h4>Adobe</h4>
+                    <p data-translate="partners.adobe">Creative Solutions Partner</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-spotify"></i>
+                    </div>
+                    <h4>Spotify</h4>
+                    <p data-translate="partners.spotify">Audio Technology Partner</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-tesla"></i>
+                    </div>
+                    <h4>Tesla</h4>
+                    <p data-translate="partners.tesla">Innovation Technology</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-netflix"></i>
+                    </div>
+                    <h4>Netflix</h4>
+                    <p data-translate="partners.netflix">Content Technology</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-salesforce"></i>
+                    </div>
+                    <h4>Salesforce</h4>
+                    <p data-translate="partners.salesforce">CRM Solutions Partner</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-slack"></i>
+                    </div>
+                    <h4>Slack</h4>
+                    <p data-translate="partners.slack">Communication Solutions</p>
+                </div>
+                
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fab fa-shopify"></i>
+                    </div>
+                    <h4>Shopify</h4>
+                    <p data-translate="partners.shopify">E-commerce Solutions</p>
                 </div>
             </div>
         </div>
