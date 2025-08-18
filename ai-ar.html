@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الذكاء الاصطناعي - أحمد رشدي</title>
+    <link rel="stylesheet" href="styles-fixed.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+</head>
+<body dir="rtl">
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index-ar.html">أحمد رشدي</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#services" class="nav-link">الخدمات</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">المشاريع</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">تواصل</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="lang-toggle" id="langToggle" onclick="window.location.href='ai.html'">English</button>
+                <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع المظلم">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">خبرة <span class="highlight">الذكاء الاصطناعي</span></h1>
+                <p class="hero-subtitle">استكشاف آفاق الذكاء الاصطناعي الحديثة</p>
+                <p class="hero-description">متخصص في التعلم الآلي والتعلم العميق ومعالجة اللغات الطبيعية والرؤية الحاسوبية لبناء حلول ذكية عملية.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">مشاريع الذكاء الاصطناعي</a>
+                    <a href="#contact" class="btn btn-secondary">تعاون</a>
+                </div>
+            </div>
+            <div class="hero-visual"><i class="fas fa-robot fa-10x"></i></div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">خدمات الذكاء الاصطناعي</h2>
+            <div class="services-grid">
+                <div class="service-card"><div class="service-icon"><i class="fas fa-brain"></i></div><h3>التعلم الآلي</h3><p>بناء نماذج تنبؤية وحلول مدفوعة بالبيانات.</p></div>
+                <div class="service-card"><div class="service-icon"><i class="fas fa-network-wired"></i></div><h3>التعلم العميق</h3><p>تدريب شبكات عصبية لمهام معقدة.</p></div>
+                <div class="service-card"><div class="service-icon"><i class="fas fa-comments"></i></div><h3>معالجة اللغات</h3><p>تمكين الآلات من فهم اللغة البشرية.</p></div>
+                <div class="service-card"><div class="service-icon"><i class="fas fa-eye"></i></div><h3>الرؤية الحاسوبية</h3><p>حلول تحليل الصور والفيديو.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">مشاريع مميزة</h2>
+            <div class="projects-grid">
+                <div class="project-card"><div class="project-image"><i class="fas fa-image"></i></div><div class="project-content"><h3>تصنيف الصور</h3><p>نموذج تعلم عميق لتصنيف الصور بدقة.</p><div class="project-tech"><span>TensorFlow</span><span>Python</span></div></div></div>
+                <div class="project-card"><div class="project-image"><i class="fas fa-file-alt"></i></div><div class="project-content"><h3>تحليل المشاعر</h3><p>حلول NLP لاستخراج المشاعر من النصوص.</p><div class="project-tech"><span>PyTorch</span><span>NLP</span></div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معي</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>هل أنت مستعد للابتكار؟</h3>
+                    <p>دعنا نناقش كيف يحوّل الذكاء الاصطناعي أفكارك إلى واقع.</p>
+                    <div class="contact-details">
+                        <div class="contact-item"><i class="fas fa-envelope"></i><span>Ahmed7Roshdi@gmail.com</span></div>
+                        <div class="contact-item"><i class="fas fa-phone"></i><span>سيكون متاحًا قريبًا</span></div>
+                        <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>القاهرة، مصر</span></div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form-ai-ar">
+                    <div class="form-group"><input type="text" placeholder="اسمك" required></div>
+                    <div class="form-group"><input type="email" placeholder="بريدك الإلكتروني" required></div>
+                    <div class="form-group"><input type="text" placeholder="الموضوع" required></div>
+                    <div class="form-group"><textarea rows="5" placeholder="رسالتك" required></textarea></div>
+                    <button type="submit" class="btn btn-primary"><span class="btn-text">إرسال</span></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container"><div class="footer-content"><p>© 2025 أحمد رشدي. جميع الحقوق محفوظة.</p><p>صُنع بـ ❤️ وكثير من ☕</p></div></div>
+    </footer>
+
+    <script src="lang-toggle-fixed.js"></script>
+    <script src="script.js"></script>
+    <script src="pages-script.js"></script>
+</body>
+</html>
+
+

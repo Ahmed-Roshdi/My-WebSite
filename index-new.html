@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Roshdi — Full Stack Developer</title>
+  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="core.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav">
+      <a class="brand" href="@https://ahmed-roshdi.github.io/Portfolio/" aria-label="Old site version">
+        <img class="brand-logo" src="profile-image.png" alt="Ahmed" onerror="this.style.display='none'">
+        <span>Ahmed Roshdi</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="index-ar.html" hreflang="ar" lang="ar" title="العربية">العربية</a>
+      </nav>
+      <div class="nav-cta">
+        <button id="themeToggleNew" class="toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+        <button id="hamburger" class="hamburger" aria-label="Menu"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="mobile" data-open="false" aria-label="Mobile menu" style="display:none">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="index-ar.html" hreflang="ar" lang="ar">العربية</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Full Stack Developer</div>
+          <h1 class="h1">I build fast, beautiful digital products that solve real problems.</h1>
+          <p class="lead">Focused on clean code, great UX, and measurable impact across web apps, AI, and cybersecurity.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#projects">View Work</a>
+            <a class="btn btn-ghost" href="#contact">Get In Touch</a>
+          </div>
+          <div class="space"></div>
+          <div class="stack">
+            <span class="chip">React</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">Python</span>
+            <span class="chip">MongoDB</span>
+            <span class="chip">AWS</span>
+          </div>
+        </div>
+        <div>
+          <div class="hero-card">
+            <img src="profile-image.png" alt="Ahmed Roshdi" onerror="this.src='projects-showcase.jpg'">
+            <h3>Ahmed Roshdi</h3>
+            <p class="muted">Developer & Designer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <p class="section-sub">I create meaningful digital experiences—combining engineering precision with design craft.
+          I care about performance, accessibility, and maintainability.
+        </p>
+        <div class="grid grid-3">
+          <div class="card"><h3>3+ Years</h3><p>Professional experience delivering products end‑to‑end.</p></div>
+          <div class="card"><h3>50+ Projects</h3><p>From landing pages to full SaaS platforms.</p></div>
+          <div class="card"><h3>100% Clients</h3><p>Focused on outcomes, communication, and trust.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="grid grid-4">
+          <div class="card"><h3>Frontend</h3><p>HTML, CSS, JavaScript, React</p></div>
+          <div class="card"><h3>Backend</h3><p>Node.js, Express, Python</p></div>
+          <div class="card"><h3>Data/Cloud</h3><p>MongoDB, AWS, Cloudflare</p></div>
+          <div class="card"><h3>Security/AI</h3><p>Cybersecurity basics, ML/NLP</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Selected Projects</h2>
+        <div class="grid grid-3">
+          <div class="card">
+            <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+            <h3>E‑Commerce Platform</h3>
+            <p>Full‑stack storefront with auth, checkout, and admin.</p>
+            <div class="stack"><span class="chip">React</span><span class="chip">Node</span><span class="chip">MongoDB</span></div>
+            <div class="project-actions">
+              <a class="btn btn-ghost" href="#">Live</a>
+              <a class="btn btn-ghost" href="#">GitHub</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="project-icon"><i class="fas fa-tasks"></i></div>
+            <h3>Task Manager</h3>
+            <p>Realtime collaboration with roles and notifications.</p>
+            <div class="stack"><span class="chip">Vue</span><span class="chip">Firebase</span></div>
+            <div class="project-actions">
+              <a class="btn btn-ghost" href="#">Live</a>
+              <a class="btn btn-ghost" href="#">GitHub</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Analytics Dashboard</h3>
+            <p>Interactive visualization with filters and streaming updates.</p>
+            <div class="stack"><span class="chip">D3</span><span class="chip">Python</span><span class="chip">Flask</span></div>
+            <div class="project-actions">
+              <a class="btn btn-ghost" href="#">Live</a>
+              <a class="btn btn-ghost" href="#">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-wrap">
+        <div>
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="list">
+            <div><i class="fas fa-envelope"></i> Ahmed7Roshdi@gmail.com</div>
+            <div><i class="fas fa-location-dot"></i> Cairo, Egypt</div>
+          </div>
+          <div class="space"></div>
+          <div class="stack">
+            <a class="btn btn-ghost" href="https://github.com/Ahmed-Roshdi" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> GitHub</a>
+            <a class="btn btn-ghost" href="http://www.linkedin.com/in/ahmed-roshdi" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+        <form id="contactFormNew">
+          <div class="field"><label for="name">Name</label><input id="name" name="name" class="input" required></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" class="input" required></div>
+          <div class="field"><label for="message">Message</label><textarea id="message" name="message" class="textarea" required></textarea></div>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">© 2025 Ahmed Roshdi · Built with ❤️</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
