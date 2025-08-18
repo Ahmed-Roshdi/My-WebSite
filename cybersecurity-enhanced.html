@@ -43,7 +43,6 @@
                 </li>
             </ul>
             <div class="nav-controls">
-                <button class="lang-toggle" id="langToggle" onclick="window.location.href='cybersecurity-ar.html'">العربية</button>
                 <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
                     <i class="fas fa-sun"></i>
                     <i class="fas fa-moon"></i>
@@ -57,7 +56,9 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->        <section class="cyber-hero" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(\'./generated_cyber_background.png\'); background-size: cover; background-position: center;">        <div class="hero-container">
+    <!-- Hero Section -->
+    <section class="cyber-hero">
+        <div class="hero-container">
             <div class="hero-content">
                 <div class="security-badge">
                     <i class="fas fa-shield-alt"></i>
@@ -581,7 +582,13 @@
                     </div>
                     <div class="security-status">
                         <div class="status-indicator">
-              
+                            <div class="status-light"></div>
+                            <span>SECURE CONNECTION ESTABLISHED</span>
+                        </div>
+                        <div class="encryption-info">
+                            <i class="fas fa-lock"></i>
+                            <span>256-bit SSL Encryption</span>
+                        </div>
                     </div>
                 </div>
                 <div class="contact-form">
@@ -660,56 +667,4 @@
     <script src="cybersecurity-enhanced.js"></script>
 </body>
 </html>
-                            <span>Cairo, Egypt</span>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <select id="service" name="service" required>
-                            <option value="">Select Service</option>
-                            <option value="penetration-testing">Penetration Testing</option>
-                            <option value="vulnerability-assessment">Vulnerability Assessment</option>
-                            <option value="secure-code-review">Secure Code Review</option>
-                            <option value="network-security">Network Security</option>
-                            <option value="security-training">Security Training</option>
-                            <option value="incident-response">Incident Response</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Tell us about your security needs..." rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2025 Ahmed Roshdi. All rights reserved.</p>
-                <p>Securing the digital world, one system at a time 🔒</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="cybersecurity-script.js"></script>
-    <script src="pages-script.js"></script>
-</body>
-</html>
-
-
 
