@@ -201,3 +201,222 @@ The page will be divided into five main, sequential sections, each serving a spe
 
 ---
 Is this format clear and suitable for updating your instructions file? We can adjust any part of it if needed.
+
+
+
+Of course. Here is the English translation of that entire response, ready for you to update your AI instructions file.
+
+---
+
+Okay, I understand you perfectly now. You liked the original plan for the Cybersecurity page with all its details (the boot screen, the dashboard, the terminal, etc.), but you want this immersive, hacker-inspired experience to be exclusive to **Dark Mode only**.
+
+This makes the idea stronger and more logical. The Dark Mode is the primary and most authentic experience for this section, while the Light Mode will be a secondary and simpler design.
+
+I will document this decision in a final and organized manner.
+
+---
+
+### **Cybersecurity Page Development Plan - Final Version**
+
+**1. Core Concept: "The Elegant Hacker Experience"**
+
+*   **Objective:** To deliver a unique and immersive experience that reflects the world of cybersecurity, making Dark Mode the main and featured experience.
+
+**2. Dark Mode Design (The Core Experience):**
+
+This mode will contain the full interactive experience described previously:
+
+*   **Atmosphere:** Mysterious, technical, and inspired by Hacker UI.
+*   **Structure:**
+    1.  **Boot Screen:** A black screen with glowing green text simulating a system boot sequence.
+    2.  **Main Dashboard:** A grid of interactive widgets (a profile with a glitch effect, a skills matrix, live stats, an animated threat map).
+    3.  **Operations Log:** A section that simulates a black terminal window, where case studies appear as if they are commands being typed directly.
+    4.  **Tools Arsenal:** A grid of glowing tool icons.
+*   **Color Palette:**
+    *   **Background:** Very dark (black).
+    *   **Primary Color:** **Neon Green** is the dominant color for text, icons, and graphs.
+    *   **Accent Colors:** Touches of **Red** and **Yellow** for important highlights.
+*   **Fonts:** Use of **Monospace** fonts to enhance the terminal feel.
+
+**3. Light Mode Design (A Clean and Simple Design):**
+
+*   **Atmosphere:** Professional, clean, and easy to read.
+*   **Structure:** This will be a more traditional and professional design. It will display the same information (skills, projects, tools) but in the form of clean cards and lists, without the immersive effects of the Dark Mode.
+*   **Color Palette:**
+    *   **Background:** White or light gray.
+    *   **Primary Color:** A professional blue or dark gray can be used for the text.
+    *   **Objective:** To provide a practical and easy-to-read alternative for those who do not prefer complex interfaces.
+
+---
+This way, we have established that the full creative experience of the Cybersecurity page lies within the **Dark Mode**, which aligns perfectly with the original idea.
+
+
+
+
+
+---
+
+### **Programming Page Development Plan - Final Version**
+
+**1. Core Concept: "The Integrated Development Environment (IDE) Experience"**
+
+*   **Objective:** To design the page to look and feel like a modern code editor (e.g., VS Code), reflecting the order, clarity, and logical structure of a professional developer.
+*   **Atmosphere:** Professional, organized, modern, and interactive.
+
+**2. Visual Identity & Themes:**
+
+The page will fully support a dark and light mode system, allowing the visitor to choose their preferred environment.
+
+*   **Dark Mode (The Default Experience):**
+    *   **Background:** A dark color inspired by popular code editor themes (e.g., Dark+, Monokai).
+    *   **Colors:** Utilizes a syntax highlighting color scheme for headlines and key text (e.g., blue for functions, green for strings, orange for numbers) to create an authentic code environment feel.
+    *   **Fonts:** High-quality **Monospace** fonts designed for programming (e.g., `Fira Code` or `JetBrains Mono`) will be used to enhance the aesthetic and readability.
+
+*   **Light Mode:**
+    *   **Background:** White or a very light gray (similar to Light+ themes).
+    *   **Colors:** Applies the same syntax highlighting logic but with a color palette adapted for light backgrounds.
+    *   **Fonts:** Maintains the same fonts used in Dark Mode for consistency.
+
+**3. Page Layout & Content Structure:**
+
+The entire page will be organized to simulate a code editor's interface, divided into four main, integrated parts:
+
+*   **Part 1: Vertical Activity Bar**
+    *   **Location:** A vertical bar on the left side of the page.
+    *   **Content:** Contains main icons representing the page's key sections (e.g., an icon for skills, an icon for projects, an icon for tools).
+    *   **Interaction:** Clicking an icon smoothly navigates the user to its corresponding section within the page.
+
+*   **Part 2: Explorer Window - Your Skills & Languages**
+    *   **Design:** A section styled like a file tree from a code editor.
+    *   **Content:** Your skills will be organized hierarchically:
+        *   `📁 Frontend` (HTML, CSS, JavaScript, React)
+        *   `📁 Backend` (Node.js, Python)
+        *   `📁 Databases` (SQL, MongoDB)
+        *   `📁 Tools_&_Platforms` (Git, Docker, GitHub)
+    *   **Interaction:** When a "file" (language or tool) is clicked, a pop-up or adjacent info card appears, explaining your proficiency level or projects where you used that technology.
+
+*   **Part 3: Main Editor Window - Your Featured Projects**
+    *   **Design:** This is the largest part of the page, designed as a main editing window with a tab system at the top. Each tab represents a project.
+    *   **Content within each tab:**
+        1.  **Header Comment:** A description of the project and its goals, written as a code comment.
+        2.  **Tech Stack:** A display of the technologies used, styled as code or a formatted list.
+        3.  **Visuals Gallery:** A display of images or a video of the final project.
+        4.  **Links:** Clear and well-designed buttons for "Live Demo" and "View on GitHub."
+
+*   **Part 4: Integrated Terminal - Your Stats**
+    *   **Location:** At the bottom of the page.
+    *   **Design:** An interactive terminal window.
+    *   **Content:** Displays your stats from GitHub dynamically (can be fetched via API or set as animated, estimated numbers):
+        *   `> Fetching stats from GitHub...`
+        *   `> Commits this year: 1500+`
+        *   `> Repositories created: 42`
+        *   `> Current focus: Building innovative web experiences.`
+
+---
+This is the complete and final plan. It combines professional organization with creative presentation, fully realizing your inspiring vision for a page that functions like a code editor.
+
+
+
+
+
+
+
+---
+
+### **Sciences Section Development Plan - Hub-and-Spoke Model**
+
+**1. Core Concept: "The Multidisciplinary Science Gateway"**
+
+*   **Objective:** To design the Sciences section to function as a main hub page that directs visitors to detailed "spoke" pages, each dedicated to a major scientific branch. This allows for sufficient space to delve deeply into each field.
+*   **Atmosphere:** Organized, academic, and easy to navigate.
+
+**2. New Structure:**
+
+The Sciences section will be divided into two types of pages:
+
+**A. The Main Sciences Hub Page (`sciences.html`)**
+
+This is the page the user lands on when clicking "Sciences" from the main navigation.
+
+*   **Section 1: Researcher's Profile:** A general introduction to you as an interdisciplinary researcher.
+*   **Section 2: Scientific Branch Gateways:**
+    *   **Design:** A central section showcasing the main scientific branches (Medicine, Engineering, Physics, Chemistry) as large, elegant cards or interactive gateways.
+    *   **Content for each card (Example: Engineering Card):**
+        *   Branch Name: "Engineering."
+        *   A distinctive icon.
+        *   A very brief summary of your passion for the field.
+        *   A clear button: **"Explore This Field"** or **"Enter Engineering Division."**
+    *   **Interaction:** Clicking the button navigates the user to the dedicated page for that science (e.g., `engineering.html`).
+*   **Section 3: Aggregated Publications:** This section can feature your latest publications from *all* scientific fields, acting as a teaser for a full publications section.
+*   **Section 4: The Lab Bench:** Showcases diverse items from all sciences (e.g., a stone from geology, an engineering drawing, a physics equation).
+
+**B. Detailed Science "Spoke" Pages (e.g., `engineering.html`, `medicine.html`)**
+
+Each of these pages will be a world of its own, giving you the space you need.
+
+*   **Detailed Page Structure (Example: Engineering Page - `engineering.html`):**
+    1.  **Specialized Introduction:** A headline for "Engineering" with a detailed introduction to your vision and philosophy in this field.
+    2.  **Sub-disciplines:** Sub-sections within the page for the types of engineering you are interested in (Civil, Military, Nuclear).
+    3.  **Projects & Ideas:** Ample space to showcase your engineering projects, ideas, designs, and theories.
+    4.  **Specialized Publications:** A section displaying only your engineering-related publications, with links to them on `Academia.edu`.
+    5.  **Image/Video Gallery:** To display models, diagrams, or any visual content related to engineering.
+
+**Note on File Structure:**
+This means the project folder will contain additional files, such as:
+```
+/
+├── sciences.html         (The Main Hub Page)
+├── sciences-ar.html
+|
+├── engineering.html      (A Detailed Spoke Page)
+├── engineering-ar.html
+|
+├── medicine.html         (Another Spoke Page)
+├── medicine-ar.html
+|
+└── (etc. for other sciences)
+```
+
+---
+This new Hub-and-Spoke model is the optimal solution for handling the large volume of content. It is organized, scalable for the future, and gives each scientific branch the importance and space it deserves.
+
+
+
+
+
+---
+
+### **Final Approved Plan: Blog Page Development - Al Jazeera Model**
+
+**1. Core Concept: "Al Jazeera-Style Blog"**
+
+*   **Objective:** To replicate the core design principles of the Al Jazeera website to create a professional, visually appealing blog that offers an excellent reading experience.
+*   **Atmosphere:** Professional, credible, organized, and modern.
+
+**2. Layout & Design of the Blog Listing Page (`blog.html`)**
+
+*   **Overall Design:** A dynamic, news-style interface based on a multi-column grid.
+*   **Hero Section:** A single featured article (the latest or most important) will be displayed very prominently with a large image and a huge, bold title.
+*   **Content Grid:** Below the hero section, the page will be divided into columns to display other articles as cards of varying sizes.
+*   **Sidebar:** A dedicated sidebar column will feature:
+    1.  A list of Categories.
+    2.  A "Popular Posts" section.
+    3.  A Search Bar.
+
+**3. Layout & Design of the Single Article Page (Template)**
+
+*   **Primary Goal:** To provide a comfortable, distraction-free reading experience.
+*   **Design:**
+    *   A large, clear title at the top.
+    *   Directly underneath: your name, the publication date, and the estimated reading time.
+    *   A high-quality hero image.
+    *   The body of the article will be in a single, centered column with wide white margins on both sides.
+    *   Use of easy-to-read fonts with comfortable sizing and line spacing.
+*   **Additional Elements:**
+    *   A Reading Progress Bar.
+    *   Share Buttons.
+    *   A "Related Articles" section at the end.
+
+**4. Integration with Headless CMS:**
+
+*   Every article you write in the Headless CMS will use this **Single Article Page template** to be displayed with the same professional design.
