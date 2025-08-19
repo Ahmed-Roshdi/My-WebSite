@@ -111,7 +111,7 @@ Ahmed, your website is not just an online resume; it's a platform to showcase yo
 
 ### AI MODELS PLEASE ALIGHT AND ALART HERE:
 ### Now I want to Develop website It's suits my personality and my Goals.
-Now: Please Take The File to be Source for You.
+Now: Please Take The Files to be Source for You.
 And Suggest what can we do.
 1. fix the wesite problems and Develop more and more.
 or
@@ -121,3 +121,11 @@ or
 The WebSite will be Personal portfolio Website.
 We will be page for Every Connected Department like: (Photography + Graphic Design + Contant Creating + etc like this) and (Programming lang + Website Develops + etc like this) and (CyberSecurity: Blue Team + Ted Team Tactics + etc like this).
 We will add *Blog Page* for the website that's well helping me to Share My beliefs and & My intellectual convictions and My Ideas.
+
+### How to Start?
+1. Starting Develop *Main page* :This is the page that the visitor will automatically enter once he clicks on the main link of the site. (It will be a page explaining my personality, my story, my ambitions, and my overall achievements.
+When a specific field is mentioned, the written text about the field will allow access to the page dedicated to that field: simply click on the text or widget.)
+2. We will start developing other pages gradually. (DON'T START DEVELOPING OTHER PAGES BEFORE YOU COMPLETE THE PAGE YOU ARE DEVELOPONG IT NOW !! )
+3. We Will Develop Translated virson page for Arabic: and we will connect it by Clicking on "العربيّة" Button located at the top of the English version of the page, and we well turn-back to English virson by clicking on "English" The Button Located at the top of the Arabic version of the page.
+4. In The Main Page, We Will Develop "Connect Secion" at End of the Page.
+5. The All website Shoud have Translation to Arabic, Not The Main Page Only!!, In Num3 It was an example for Createing Translated page for main page: We will Reapet The Instrucions in Num3 to Create Translated page for Every Department page like "CyberSecurity" and Translated page "الأمن السيبراني". Please Understand me and Contenue Reading.
