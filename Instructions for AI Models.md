@@ -129,3 +129,17 @@ When a specific field is mentioned, the written text about the field will allow 
 3. We Will Develop Translated virson page for Arabic: and we will connect it by Clicking on "العربيّة" Button located at the top of the English version of the page, and we well turn-back to English virson by clicking on "English" The Button Located at the top of the Arabic version of the page.
 4. In The Main Page, We Will Develop "Connect Secion" at End of the Page.
 5. The All website Shoud have Translation to Arabic, Not The Main Page Only!!, In Num3 It was an example for Createing Translated page for main page: We will Reapet The Instrucions in Num3 to Create Translated page for Every Department page like "CyberSecurity" and Translated page "الأمن السيبراني". Please Understand me and Contenue Reading.
+
+### Other Details
+Yes, the project will be in a GitHub repository.
+And yes, develop the Arabic page in parallel.
+No: I have never developed a content management system for a blog before.
+
+Specific Instructions:
+Thematic Isolation: Each main page (e.g., index.html, cybersecurity.html, programming.html) will have its own dedicated CSS and JavaScript files.
+For example, cybersecurity.html will link to css/cybersecurity.css and js/cybersecurity.js.
+Similarly, programming.html will link to its own css/programming.css and js/programming.js.
+This ensures that the style and functionality of the "Cybersecurity" section can be completely different from the "Programming" section, allowing each to flourish with its own unique identity.
+Shared Resources for Language Translations Only: The only instance where CSS and JavaScript files will be shared is between a page and its direct Arabic translation.
+For example, cybersecurity.html (English) and cybersecurity-ar.html (Arabic) will both use css/cybersecurity.css and js/cybersecurity.js.
+The CSS file (cybersecurity.css in this case) must be written to support both Left-to-Right (LTR) for English and Right-to-Left (RTL) for Arabic, ensuring the layout is perfectly adjusted for both languages.
