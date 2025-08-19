@@ -420,3 +420,98 @@ This new Hub-and-Spoke model is the optimal solution for handling the large volu
 **4. Integration with Headless CMS:**
 
 *   Every article you write in the Headless CMS will use this **Single Article Page template** to be displayed with the same professional design.
+
+
+
+
+
+
+
+
+
+
+---
+
+### **Content Creation Page Development Plan (Creative Portfolio)**
+
+**1. Core Concept: "The Creative Studio"**
+
+*   **Objective:** To design a page that functions as a dynamic and visually appealing **portfolio**, showcasing your skills in **Graphic Design, Video Editing, Photography, and Creative Writing (like copywriting)** in a professional and innovative way.
+*   **Atmosphere:** Creative, modern, visual, and polished.
+
+**2. Layout & Design:**
+
+*   **Section 1: Hero Showcase**
+    *   **Design:** A full-screen introductory section featuring a short **showreel video** (15-30 seconds). This video will quickly and professionally showcase your best work (clips from videos you've edited, animated graphic designs, standout photographs).
+    *   **Text:** A simple and powerful headline over the video, such as: **"Turning Ideas into Visual Reality."**
+
+*   **Section 2: The Portfolio Grid**
+    *   **Design:** This is the core of the page. Your work will be displayed in a **flexible and asymmetrical grid (Masonry Grid)** to give an artistic and dynamic feel.
+    *   **Filtering:** At the top of the grid, there will be elegant filter buttons allowing the visitor to display a specific type of project:
+        *   `All` | `Graphic Design` | `Video Editing` | `Photography` | `Creative Writing`
+    *   **Interaction:** On hover over a project, a transparent overlay appears on the image containing the project title and its category.
+
+*   **Section 3: Project Lightbox**
+    *   **Interaction:** When a project is clicked, a **lightbox window** will appear, displaying the project in a large format (a video, a gallery of images, or a design) along with a short description and the tools used (Photoshop, Premiere Pro, etc.). This keeps the user on the same page.
+
+*   **Section 4: Services & Toolkit**
+    *   **Design:** A simple and direct section.
+    *   **Content:**
+        1.  **Services:** An icon-based list of the services you offer in this domain (Brand Identity, Ad Editing, Product Photography...).
+        2.  **Toolkit:** A display of the logos of the software you master (Adobe Creative Suite, Figma, DaVinci Resolve, etc.) to demonstrate your technical expertise.
+
+
+
+
+
+
+
+
+
+
+        Of course. Here is the English translation for the Digital Marketing page plan.
+
+---
+
+### **Digital Marketing Page Development Plan**
+
+**1. Core Concept: "The Digital Growth Architect"**
+
+*   **Objective:** To design a professional and persuasive page that presents you as a digital marketing expert who doesn't just launch campaigns, but designs integrated, data-driven growth engines.
+*   **Atmosphere:** Strategic, analytical, results-driven, and credible.
+
+**2. Visual Identity & Themes:**
+
+*   **Colors:** Use a professional and trustworthy color palette (shades of blue, gray, and green) that inspires confidence and growth. A bright accent color like orange or yellow can be used for Call-to-Action buttons and to highlight results and numbers.
+*   **Fonts:** Clean and modern **Sans-serif** fonts (like `Roboto`, `Open Sans`) for clarity and readability.
+*   **Graphics:** Extensive use of clear icons and simplified charts and graphs to present data and results in an engaging way.
+
+**3. Page Content Structure:**
+
+*   **Section 1: The Strategic Introduction (Hero Section)**
+    *   **Headline:** "Turning Clicks into Customers. And Data into Profit." or "Driving Growth Through Data-Driven Marketing."
+    *   **Content:** A short, direct paragraph explaining your approach: "I don't believe in random marketing. I use data to build precise marketing strategies that deliver sustainable and measurable growth."
+
+*   **Section 2: My Areas of Expertise**
+    *   **Design:** A section divided into elegant cards, each representing a digital marketing specialty.
+    *   **Content:**
+        1.  **Search Engine Marketing (SEM/SEO):** (Improving Google visibility, managing Google Ads campaigns).
+        2.  **Social Media Marketing:** (Managing ad campaigns, community building).
+        3.  **Content Marketing:** (Using content to attract and retain customers).
+        4.  **Data Analysis:** (Using Google Analytics and other tools to measure and optimize performance).
+        5.  **Email Marketing:** (Building mailing lists and effective campaigns).
+
+*   **Section 3: Case Studies - The Success Showcase**
+    *   **Design:** This is the most crucial part to prove your capabilities. Showcase 2-3 of your most successful marketing campaigns.
+    *   **Content for each case study:**
+        *   **The Goal:** What was the business objective? (e.g., "Increase online sales by 20%").
+        *   **The Strategy:** What was the plan you implemented? (e.g., "Launched a Facebook ad campaign targeting audience X, while optimizing landing pages Y").
+        *   **The Result:** Display the results with numbers and charts. (e.g., "Achieved a 25% increase in sales and a 300% Return on Investment (ROI)"). Use a graph to illustrate the growth.
+
+*   **Section 4: My Marketing Toolkit**
+    *   **Design:** A section displaying the logos of the tools and platforms you master.
+    *   **Content:** (Google Analytics, Google Ads, Meta Business Suite, SEMrush, Mailchimp, etc.).
+
+*   **Section 5: Let's Build Your Strategy**
+    *   **Design:** A clear and direct final section with a call to action.
+    *   **Content:** A headline like "Ready for Growth?" with a prominent button "Contact Me to Discuss Your Project."
